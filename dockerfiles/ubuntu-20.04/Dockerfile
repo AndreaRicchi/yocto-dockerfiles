@@ -57,5 +57,4 @@ RUN groupadd -g $GID $USERNAME && \
     useradd -g $GID -m -s /bin/bash -u $UID $USERNAME
 
 USER $USERNAME
-WORKDIR /home/$USERNAME
 CMD /bin/bash
