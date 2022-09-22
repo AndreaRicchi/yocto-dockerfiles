@@ -17,7 +17,7 @@ RUN apt-get update && \
         build-essential \
         chrpath \
         socat \
-        python \
+        python2 \
         python3 \
         python3-pip \
         python3-pexpect \
@@ -32,7 +32,6 @@ RUN apt-get update && \
         python3-jinja2 \
         libegl1-mesa \
         libsdl1.2-dev \
-        pylint3 \
         xterm \
         iproute2 \
         fluxbox \
